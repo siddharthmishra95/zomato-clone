@@ -83,6 +83,7 @@ const TopBrands = () => {
                 alt={brand.time}
               />
             </div>
+            <div className="delivery-brand-title">{brand.time}</div>
           </div>
         ))}
       </Slider>
